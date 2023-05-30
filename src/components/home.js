@@ -3,6 +3,8 @@ import { useDispatch } from 'react-redux';
 import { setName } from '../redux/actions';
 import Chatbot from './Chatbot'
 
+
+
 const Page1 = () => {
   const dispatch = useDispatch();
   const [showChatbot, setShowChatbot] = useState(false);
